@@ -2,9 +2,9 @@ name: Upload to S3
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main  # Or your deployment branch
+  #push:
+  #  branches:
+   #   - main  # Or your deployment branch
 
 jobs:
   deploy:
